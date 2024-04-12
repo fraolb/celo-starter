@@ -26,6 +26,7 @@ const Main = () => {
         });
 
         // Fetch Uniswap token list
+        //https://tokenlists.org/token-list?url=https://gateway.ipfs.io/ipns/tokens.uniswap.org
         const response = await fetch(
           "https://gateway.ipfs.io/ipns/tokens.uniswap.org"
         );
